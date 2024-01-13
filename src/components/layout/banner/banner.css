@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner_section .slider {
+  height: 400px;
+  position: relative;
+}
+.banner_section .slider img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.banner_section .slider .inner {
+  position: absolute;
+  z-index: 9000;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(5, 6, 71, 0.301);
+  bottom: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 2rem;
+}/*# sourceMappingURL=banner.css.map */

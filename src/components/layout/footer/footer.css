@@ -1,0 +1,19 @@
+.footer {
+  height: 250px;
+  background-color: rgb(0, 0, 34);
+  align-items: center;
+}
+.footer a {
+  color: #fff;
+  font-weight: 600;
+}
+.footer .footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+.footer .footer_container .link a {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=footer.css.map */

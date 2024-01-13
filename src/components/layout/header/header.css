@@ -1,0 +1,59 @@
+.header {
+  background-color: rgb(0, 0, 34);
+  padding: 15px 0;
+}
+.header a {
+  color: white;
+}
+.header .header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_container .logo {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.header .header_container .search_form {
+  display: flex;
+}
+.header .header_container .search_form input,
+.header .header_container .search_form button {
+  height: 35px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+.header .header_container .search_form #search_input {
+  width: 200px;
+}
+.header .header_container .search_form #search_btn {
+  background-color: rgb(240, 130, 4);
+  width: 90px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bolder;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.header .header_container .nav {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+}
+
+.WhatsAppButton {
+  background-color: rgb(218, 120, 9);
+  padding: 10px 15px;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.WhatsAppButton .whatIcon {
+  font-size: 20px;
+  color: rgb(6, 204, 6);
+}/*# sourceMappingURL=header.css.map */

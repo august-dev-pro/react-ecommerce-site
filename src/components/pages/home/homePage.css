@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.home .products-section .Products_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}/*# sourceMappingURL=homePage.css.map */

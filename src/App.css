@@ -1,5 +1,52 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+button {
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* container */
+.container {
+  padding: 0 70px;
+}
+
+body {
+  font-size: 18px;
+  /* font-family: "Kanit", sans-serif; */
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .App-logo {

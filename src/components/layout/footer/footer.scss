@@ -1,0 +1,26 @@
+.footer {
+
+    a {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    height: 250px;
+    background-color: rgb(0, 0, 34);
+    align-items: center;
+
+    .footer_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+
+        .link {
+            a {
+                display: flex;
+                gap: 10px;
+            }
+        }
+
+    }
+}

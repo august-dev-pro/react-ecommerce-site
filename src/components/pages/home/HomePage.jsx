@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../../layout/banner/Banner";
 import Product from "../../product/Product";
-import ProductsData from "../../products/ProductsData";
+//import ProductsData from "../../products/ProductsData";
 import "./homePage.css";
 
-const HomePage = () => {
+function HomePage() {
+  const [ProductsData, setProducts] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("https://fakestoreapi.com/products");
+      const data = await response.json();
+      setProducts(data);
+    };
+
+    fetchData();
+
+    console.log(ProductsData);
+  }, []);
   return (
     <main className="home">
       <Banner />
@@ -19,6 +31,6 @@ const HomePage = () => {
       </section>
     </main>
   );
-};
+}
 
 export default HomePage;

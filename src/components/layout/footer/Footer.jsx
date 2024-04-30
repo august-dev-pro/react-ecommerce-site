@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
           <div className="link">
             <a href="#">
-              <div className="link_text">je loue une taskeur</div>
+              <div className="link_text">je loue un taskeur</div>
             </a>
           </div>
         </div>
